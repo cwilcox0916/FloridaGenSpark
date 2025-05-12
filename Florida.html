@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florida Keys, Miami & Everglades 3-Day Itinerary</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f0f9ff, #e6fffa);
+            color: #2d3748;
+        }
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.travelandleisure.com/thmb/4ODJm73vzUiXUBAPsQueArbSy2c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-overseas-highway-florida-FLOATINGROAD0325-59a94d21cc6d4df0b1a172d3bd38eb07.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .day-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .day-card:hover {
+            transform: translateY(-5px);
+        }
+        .gradient-heading {
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .restaurant-card {
+            transition: all 0.3s ease;
+        }
+        .restaurant-card:hover {
+            transform: scale(1.02);
+        }
+        .price-tag {
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            border-radius: 20px;
+            padding: 4px 12px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .attraction-price {
+            background: linear-gradient(90deg, #f857a6, #ff5858);
+            border-radius: 20px;
+            padding: 4px 12px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .budget-bar {
+            height: 10px;
+            border-radius: 5px;
+            background: #e2e8f0;
+            overflow: hidden;
+        }
+        .budget-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Hero Section -->
+    <div class="hero h-96 flex items-center justify-center text-white mb-10">
+        <div class="text-center p-5">
+            <h1 class="text-5xl font-bold mb-4 animate-pulse">Florida Keys, Miami & Everglades Adventure</h1>
+            <p class="text-xl">A 3-Day Budget-Friendly Itinerary from Courtyard by Marriott Miami Homestead</p>
+            <p class="text-lg mt-4"><i class="fas fa-wallet mr-2"></i>Budget: $300 per person for food and attractions</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 pb-16">
+        <!-- Introduction -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl font-bold mb-4 gradient-heading">Your Perfect 3-Day Florida Adventure</h2>
+            <p class="text-lg mb-4">Welcome to your comprehensive guide for an unforgettable 3-day adventure exploring the Florida Keys, Miami, and the Everglades National Park. Starting from your base at the Courtyard by Marriott Miami Homestead, we've crafted an itinerary that balances natural wonders, cultural experiences, and delicious local cuisine—all while keeping your budget in mind.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div class="bg-blue-50 p-4 rounded-lg shadow text-center">
+                    <i class="fas fa-map-marked-alt text-blue-500 text-4xl mb-2"></i>
+                    <h3 class="font-bold text-lg">Strategic Location</h3>
+                    <p>Homestead is perfectly positioned for exploring the Keys, Everglades, and Miami</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg shadow text-center">
+                    <i class="fas fa-dollar-sign text-green-500 text-4xl mb-2"></i>
+                    <h3 class="font-bold text-lg">Budget-Friendly</h3>
+                    <p>Carefully selected attractions and dining options to stay within your $300 budget</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-lg shadow text-center">
+                    <i class="fas fa-camera text-purple-500 text-4xl mb-2"></i>
+                    <h3 class="font-bold text-lg">Unforgettable Experiences</h3>
+                    <p>From scenic drives to wildlife encounters and cultural highlights</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 1: Florida Keys -->
+        <div class="day-card mb-16">
+            <div class="bg-gradient-to-r from-blue-500 to-cyan-400 p-6 text-white">
+                <h2 class="text-3xl font-bold">Day 1: Florida Keys Adventure</h2>
+            </div>
+            <div class="p-8">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 pr-0 md:pr-6">
+                        <h3 class="text-2xl font-bold mb-4">Morning: Drive to Key West</h3>
+                        <p class="mb-4">Start early from your hotel in Homestead (around 7:00 AM) to make the most of your day. The scenic drive to Key West takes approximately 3.5 hours without stops, but you'll want to admire the breathtaking views along the way.</p>
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg mb-2">Scenic Drive Highlights:</h4>
+                            <ul class="list-disc pl-5">
+                                <li>Seven Mile Bridge - one of the most spectacular bridges in the world</li>
+                                <li>Overseas Highway - driving over crystal blue waters</li>
+                                <li>Multiple Keys islands with unique characteristics</li>
+                            </ul>
+                        </div>
+                        <div class="mb-6">
+                            <img src="https://fla-keys.com/img/section/florida-keys/highway-marathon-2.jpg" alt="Florida Keys Overseas Highway" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                            <p class="text-sm text-gray-600 mt-2 italic">The stunning Overseas Highway connecting the Florida Keys</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 pl-0 md:pl-6 mt-6 md:mt-0">
+                        <h3 class="text-2xl font-bold mb-4">Afternoon: Key West Exploration</h3>
+                        
+                        <div class="bg-yellow-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-yellow-800">Lunch at Blue Heaven</h4>
+                            <p class="mb-2">Start with a delicious brunch at this outdoor restaurant known for its Caribbean flair and roosters roaming freely.</p>
+                            <div class="flex flex-wrap items-center">
+                                <span class="price-tag mr-2 mb-2">$15-25 per person</span>
+                                <span class="text-sm text-gray-600 mb-2">729 Thomas St, Key West</span>
+                            </div>
+                            <p class="text-sm">Budget tip: Split the famous Lobster Benedict ($22) or opt for the Rooster Special ($14.50) with eggs, potatoes, and bacon</p>
+                        </div>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-green-800">Ernest Hemingway Home and Museum</h4>
+                            <p class="mb-2">Experience the historic home where the famous author lived and wrote for more than 10 years.</p>
+                            <div class="flex flex-wrap items-center">
+                                <span class="attraction-price mr-2 mb-2">$19 per adult</span>
+                                <span class="text-sm text-gray-600 mb-2">907 Whitehead St, Key West</span>
+                            </div>
+                            <p class="text-sm">Enjoy the beautiful gardens and meet the six-toed cats that are descendants of Hemingway's pets</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Hemingwayhouse.jpg" alt="Ernest Hemingway Home" class="rounded-lg shadow-lg w-full h-48 object-cover">
+                            <p class="text-sm text-gray-600 mt-2 italic">The historic Ernest Hemingway Home and Museum</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-4">Evening: Budget-Friendly Key West Activities</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-lg mb-2 text-blue-800">Old Town Exploration</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Walk around Key West's historic district with its charming architecture and vibrant atmosphere</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-lg mb-2 text-blue-800">Southernmost Point</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Take a classic photo at this iconic landmark marking the southernmost point in the continental US</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-lg mb-2 text-blue-800">Dinner at The Stoned Crab</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag">$20-30 per person</span>
+                            </div>
+                            <p>Enjoy fresh seafood with budget tip: share their seafood platters to save money</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 2: Everglades & Turtle Conservation -->
+        <div class="day-card mb-16">
+            <div class="bg-gradient-to-r from-green-500 to-teal-400 p-6 text-white">
+                <h2 class="text-3xl font-bold">Day 2: Everglades National Park & Turtle Conservation</h2>
+            </div>
+            <div class="p-8">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 pr-0 md:pr-6">
+                        <h3 class="text-2xl font-bold mb-4">Morning: Everglades National Park</h3>
+                        <p class="mb-4">Drive from Homestead to Everglades National Park (very close to your hotel, about 15 minutes).</p>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-green-800">Everglades National Park Entrance</h4>
+                            <div class="flex flex-wrap items-center">
+                                <span class="attraction-price mr-2 mb-2">$35 per vehicle</span>
+                                <span class="text-sm text-gray-600 mb-2">Valid for 7 days</span>
+                            </div>
+                            <p class="text-sm">Budget tip: This is a per-vehicle fee, so the cost is split among all passengers</p>
+                        </div>
+                        
+                        <div class="bg-green-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg mb-2 text-green-800">Must-Visit Trails:</h4>
+                            <ul class="list-disc pl-5">
+                                <li>Anhinga Trail - 0.8-mile loop with abundant wildlife viewing</li>
+                                <li>Gumbo Limbo Trail - shaded forest path with unique vegetation</li>
+                                <li>Pa-hay-okee Overlook - panoramic views of the "River of Grass"</li>
+                            </ul>
+                            <p class="mt-2 text-sm">Budget tip: Pack a picnic lunch to enjoy in the park</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <img src="https://cdn.prod.website-files.com/5ea36489dddc5f65eb82d1d4/601206e132b8c92d47ea1941_AdobeStock_58728235.jpg" alt="Everglades Wildlife" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                            <p class="text-sm text-gray-600 mt-2 italic">Amazing wildlife encounters in the Everglades National Park</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 pl-0 md:pl-6 mt-6 md:mt-0">
+                        <h3 class="text-2xl font-bold mb-4">Afternoon: Marathon Area</h3>
+                        <p class="mb-4">Drive to Marathon in the Middle Keys (approximately 1.5 hours from the Everglades).</p>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-blue-800">The Turtle Hospital</h4>
+                            <p class="mb-2">Take an educational tour to learn about sea turtle conservation efforts.</p>
+                            <div class="flex flex-wrap items-center">
+                                <span class="attraction-price mr-2 mb-2">$30 per adult</span>
+                                <span class="text-sm text-gray-600 mb-2">Tours run every half-hour, 9am-4pm</span>
+                            </div>
+                            <p class="text-sm">Budget tip: This is an affordable activity that supports conservation efforts</p>
+                        </div>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-blue-800">Old Seven Mile Bridge</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p class="text-sm">Walk or cycle across this historic bridge offering spectacular views</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <img src="https://res.cloudinary.com/traveltripperweb/image/upload/v1558368521/bib9qfihtbwnqaczqnle.jpg" alt="Turtle Hospital Marathon" class="rounded-lg shadow-lg w-full h-48 object-cover">
+                            <p class="text-sm text-gray-600 mt-2 italic">The Turtle Hospital in Marathon helps rescue and rehabilitate sea turtles</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-4 rounded-lg">
+                            <h4 class="font-bold text-lg text-yellow-800">Evening: Sunset Grille & Raw Bar</h4>
+                            <p class="mb-2">Enjoy dinner with stunning views of the Seven Mile Bridge.</p>
+                            <div class="flex flex-wrap items-center">
+                                <span class="price-tag mr-2 mb-2">$15-25 per person</span>
+                                <span class="text-sm text-gray-600 mb-2">7 Knights Key Blvd, Marathon</span>
+                            </div>
+                            <p class="text-sm">Budget tip: Their sushi platters are generous and can be shared. Don't miss trying Key Lime Pie for dessert!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 3: Miami Highlights -->
+        <div class="day-card mb-16">
+            <div class="bg-gradient-to-r from-pink-500 to-orange-400 p-6 text-white">
+                <h2 class="text-3xl font-bold">Day 3: Miami Highlights</h2>
+            </div>
+            <div class="p-8">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/2 pr-0 md:pr-6">
+                        <h3 class="text-2xl font-bold mb-4">Morning: Drive to Miami</h3>
+                        <p class="mb-4">Head north from Homestead to Miami (approximately 45 minutes). Start early to make the most of your day in the vibrant city.</p>
+                        
+                        <div class="bg-pink-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-pink-800">South Beach</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Enjoy the iconic white sand beaches and turquoise waters that Miami is famous for</p>
+                        </div>
+                        
+                        <div class="bg-pink-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-pink-800">Art Deco Historic District</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Take a self-guided walking tour of the colorful Art Deco buildings along Ocean Drive</p>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <img src="https://inhabit.corcoran.com/wp-content/uploads/2023/02/artdeco_resize.jpg" alt="Miami Art Deco District" class="rounded-lg shadow-lg w-full h-64 object-cover">
+                            <p class="text-sm text-gray-600 mt-2 italic">The colorful Art Deco Historic District in Miami's South Beach</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 pl-0 md:pl-6 mt-6 md:mt-0">
+                        <h3 class="text-2xl font-bold mb-4">Afternoon & Evening: Miami Experience</h3>
+                        
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-indigo-800">Lincoln Road Mall</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Window shop along this pedestrian street with unique boutiques</p>
+                        </div>
+                        
+                        <div class="bg-indigo-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-indigo-800">Wynwood Walls</h4>
+                            <div class="flex items-center mb-2">
+                                <span class="price-tag bg-green-400">FREE</span>
+                            </div>
+                            <p>Explore this vibrant outdoor museum showcasing large-scale works by some of the world's best-known street artists</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold text-lg text-yellow-800">Dinner in Little Havana</h4>
+                            <p class="mb-2">Experience authentic Cuban culture and cuisine in this vibrant neighborhood.</p>
+                            <div class="flex flex-wrap items-center">
+                                <span class="price-tag mr-2 mb-2">$10-20 per person</span>
+                            </div>
+                            <h5 class="font-semibold mt-2">Recommended: El Rey De Las Fritas</h5>
+                            <p class="text-sm">Try their famous Cuban "frita" hamburgers topped with crispy shoestring potatoes</p>
+                            <ul class="text-sm mt-1">
+                                <li>Original Frita: $5.25</li>
+                                <li>Frita with Cheese: $5.50</li>
+                                <li>Double Frita: $8.75</li>
+                            </ul>
+                            <p class="text-sm mt-2">Address: 1821 SW 8th St, Miami, FL 33135</p>
+                        </div>
+                        
+                        <p class="mt-4">Return to Homestead in the evening (approximately 45 minutes drive), completing your 3-day adventure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Budget Breakdown -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl font-bold mb-6 gradient-heading">Budget Breakdown</h2>
+            <p class="mb-4">Below is a breakdown of estimated expenses per person for the 3-day trip, keeping within your $300 budget:</p>
+            
+            <div class="bg-gray-50 rounded-lg p-6 mb-8">
+                <h3 class="text-xl font-bold mb-4">Attractions</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <p class="font-semibold">Everglades National Park</p>
+                        <p>$35 per vehicle (approx. $9-12 per person)</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Ernest Hemingway Home</p>
+                        <p>$19 per adult</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Turtle Hospital</p>
+                        <p>$30 per adult</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Free Activities</p>
+                        <p>South Beach, Art Deco District, Wynwood Walls, etc.</p>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <p class="font-bold text-lg text-indigo-800">Total Attractions: Approximately $60 per person</p>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 rounded-lg p-6 mb-8">
+                <h3 class="text-xl font-bold mb-4">Food (Estimated per person)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <p class="font-semibold">Day 1</p>
+                        <ul class="list-disc pl-5">
+                            <li>Breakfast: $10 (coffee and pastry)</li>
+                            <li>Lunch at Blue Heaven: $18</li>
+                            <li>Dinner at The Stoned Crab: $25</li>
+                            <li>Snacks: $7</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Day 2</p>
+                        <ul class="list-disc pl-5">
+                            <li>Breakfast: $10</li>
+                            <li>Picnic lunch (groceries): $12</li>
+                            <li>Dinner at Sunset Grille: $25</li>
+                            <li>Key Lime Pie dessert: $8</li>
+                        </ul>
+                    </div>
+                    <div class="col-span-1 md:col-span-2">
+                        <p class="font-semibold">Day 3</p>
+                        <ul class="list-disc pl-5">
+                            <li>Breakfast: $10</li>
+                            <li>Lunch in South Beach: $15</li>
+                            <li>Dinner at El Rey De Las Fritas: $15</li>
+                            <li>Snacks and drinks: $10</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <p class="font-bold text-lg text-indigo-800">Total Food: Approximately $165 per person</p>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-lg p-6">
+                <h3 class="text-xl font-bold mb-4 text-blue-800">Total Budget Summary</h3>
+                <div class="flex items-center mb-2">
+                    <div class="w-full">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-bold">Budget Used: $225</span>
+                            <span class="font-bold">Budget Limit: $300</span>
+                        </div>
+                        <div class="budget-bar">
+                            <div class="budget-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="mt-4 font-semibold text-green-600">Remaining Budget: $75 per person</p>
+                <p class="mt-2">This gives you flexibility for unexpected expenses, souvenirs, or additional activities!</p>
+            </div>
+        </div>
+
+        <!-- Money-Saving Tips -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-3xl font-bold mb-4 gradient-heading">Money-Saving Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-utensils mr-2"></i>Share Meals</h3>
+                    <p>Florida portions are often generous, especially at seafood restaurants. Consider sharing an entrée and maybe an appetizer.</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-swimming-pool mr-2"></i>Bring Your Own Gear</h3>
+                    <p>If you plan to snorkel, bring your own gear rather than renting it ($15-20 savings per person).</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-tint mr-2"></i>Refillable Water Bottles</h3>
+                    <p>Bring refillable water bottles to stay hydrated in the Florida heat (savings of $3-4 per bottle).</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-cocktail mr-2"></i>Happy Hour Specials</h3>
+                    <p>Look for happy hour specials at restaurants and bars, especially in Key West (savings of 25-50%).</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-car mr-2"></i>Carpool</h3>
+                    <p>Share transportation costs if traveling with friends to split gas and parking fees.</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <h3 class="font-bold text-lg mb-2 text-green-800"><i class="fas fa-apple-alt mr-2"></i>Pack Snacks</h3>
+                    <p>Pack snacks for your road trips to avoid expensive convenience store purchases.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final Tips -->
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl shadow-lg p-8 text-white mb-10">
+            <h2 class="text-3xl font-bold mb-4">Final Travel Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white bg-opacity-20 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <h3 class="font-bold text-lg mb-2"><i class="fas fa-sun mr-2"></i>Weather Preparedness</h3>
+                    <p>Florida can be hot and sudden rain showers are common. Bring sunscreen, a hat, and a light rain jacket.</p>
+                </div>
+                <div class="bg-white bg-opacity-20 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <h3 class="font-bold text-lg mb-2"><i class="fas fa-bug mr-2"></i>Insect Protection</h3>
+                    <p>Especially important for the Everglades. Bring insect repellent to keep mosquitoes away.</p>
+                </div>
+                <div class="bg-white bg-opacity-20 p-4 rounded-lg backdrop-filter backdrop-blur-sm">
+                    <h3 class="font-bold text-lg mb-2"><i class="fas fa-camera mr-2"></i>Photo Opportunities</h3>
+                    <p>Don't miss the sunset at Mallory Square in Key West or the panoramic views from the Seven Mile Bridge.</p>
+                </div>
+            </div>
+            <p class="mt-6 text-lg">Enjoy your Florida adventure! This beautiful region offers a unique blend of natural beauty, wildlife, and culture that will create lasting memories.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <p class="text-gray-600 mb-4">Created for your trip to Florida Keys, Miami & Everglades</p>
+            <p class="text-gray-500">Starting from Courtyard by Marriott Miami Homestead</p>
+            <p class="mt-4 text-sm">© 2025 Florida Adventure Planner</p>
+        </footer>
+    </div>
+</body>
+</html>
